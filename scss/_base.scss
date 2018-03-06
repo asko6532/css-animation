@@ -1,0 +1,53 @@
+$icon-layout:horizontal;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+.icon-animation-3 {
+	float: left;
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 2.5s steps(20) infinite;
+}
+.icon-animation-2 {
+	float: right;
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 2.5s steps(20) infinite;
+}
+.icon-animation-1 {
+	float: left;
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 2.5s steps(20) infinite;
+}
+@keyframes play {
+	100% {
+		background-position: -16000px; 
+	}
+} 
+
+.icon-animation-3:hover {
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 2.5s steps(2) infinite;
+}
+.icon-animation-2:hover {
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 20s steps(200) infinite;
+}
+.icon-animation-1:hover {
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 5s steps(50) infinite;
+}
+
+body {
+	background-color: black;
+}

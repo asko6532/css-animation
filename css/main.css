@@ -1,0 +1,138 @@
+.icon-sprite, .icon-animation_0000_10, .icon-animation_0001_9, .icon-animation_0002_8, .icon-animation_0003_7, .icon-animation_0004_6, .icon-animation_0005_5, .icon-animation_0006_4, .icon-animation_0007_3, .icon-animation_0008_2, .icon-animation_0009_1, .icon-animation_0010_10, .icon-animation_0011_9, .icon-animation_0012_8, .icon-animation_0013_7, .icon-animation_0014_6, .icon-animation_0015_5, .icon-animation_0016_4, .icon-animation_0017_3, .icon-animation_0018_2, .icon-animation_0019_1 {
+  background-image: url('../img/icon-s9fd2a1c010.png');
+  background-repeat: no-repeat;
+}
+
+.icon-animation_0000_10 {
+  background-position: 0 0;
+}
+
+.icon-animation_0001_9 {
+  background-position: -800px 0;
+}
+
+.icon-animation_0002_8 {
+  background-position: -1600px 0;
+}
+
+.icon-animation_0003_7 {
+  background-position: -2400px 0;
+}
+
+.icon-animation_0004_6 {
+  background-position: -3200px 0;
+}
+
+.icon-animation_0005_5 {
+  background-position: -4000px 0;
+}
+
+.icon-animation_0006_4 {
+  background-position: -4800px 0;
+}
+
+.icon-animation_0007_3 {
+  background-position: -5600px 0;
+}
+
+.icon-animation_0008_2 {
+  background-position: -6400px 0;
+}
+
+.icon-animation_0009_1 {
+  background-position: -7200px 0;
+}
+
+.icon-animation_0010_10 {
+  background-position: -8000px 0;
+}
+
+.icon-animation_0011_9 {
+  background-position: -8800px 0;
+}
+
+.icon-animation_0012_8 {
+  background-position: -9600px 0;
+}
+
+.icon-animation_0013_7 {
+  background-position: -10400px 0;
+}
+
+.icon-animation_0014_6 {
+  background-position: -11200px 0;
+}
+
+.icon-animation_0015_5 {
+  background-position: -12000px 0;
+}
+
+.icon-animation_0016_4 {
+  background-position: -12800px 0;
+}
+
+.icon-animation_0017_3 {
+  background-position: -13600px 0;
+}
+
+.icon-animation_0018_2 {
+  background-position: -14400px 0;
+}
+
+.icon-animation_0019_1 {
+  background-position: -15200px 0;
+}
+
+.icon-animation-3 {
+  float: left;
+  width: 800px;
+  height: 800px;
+  background: url("../img/icon-s9fd2a1c010.png") left center;
+  animation: play 2.5s steps(20) infinite;
+}
+
+.icon-animation-2 {
+  float: right;
+  width: 800px;
+  height: 800px;
+  background: url("../img/icon-s9fd2a1c010.png") left center;
+  animation: play 2.5s steps(20) infinite;
+}
+
+.icon-animation-1 {
+  float: left;
+  width: 800px;
+  height: 800px;
+  background: url("../img/icon-s9fd2a1c010.png") left center;
+  animation: play 2.5s steps(20) infinite;
+}
+
+@keyframes play {
+  100% {
+    background-position: -16000px;
+  }
+}
+.icon-animation-3:hover {
+  width: 800px;
+  height: 800px;
+  background: url("../img/icon-s9fd2a1c010.png") left center;
+  animation: play 2.5s steps(2) infinite;
+}
+
+.icon-animation-2:hover {
+  width: 800px;
+  height: 800px;
+  background: url("../img/icon-s9fd2a1c010.png") left center;
+  animation: play 20s steps(200) infinite;
+}
+
+.icon-animation-1:hover {
+  width: 800px;
+  height: 800px;
+  background: url("../img/icon-s9fd2a1c010.png") left center;
+  animation: play 5s steps(50) infinite;
+}
+
+body {
+  background-color: black;
+}

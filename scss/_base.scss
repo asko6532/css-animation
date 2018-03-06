@@ -23,6 +23,13 @@ $icon-layout:horizontal;
 	background: url("../img/icon-s9fd2a1c010.png") left center;
 	animation: play 2.5s steps(20) infinite;
 }
+.icon-animation-4 {
+	float: right;
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 2.5s steps(20) infinite;
+}
 @keyframes play {
 	100% {
 		background-position: -16000px; 
@@ -39,13 +46,20 @@ $icon-layout:horizontal;
 	width:800px;
 	height:800px;
 	background: url("../img/icon-s9fd2a1c010.png") left center;
-	animation: play 20s steps(200) infinite;
+	animation: play 5s steps(70) infinite;
 }
 .icon-animation-1:hover {
 	width:800px;
 	height:800px;
 	background: url("../img/icon-s9fd2a1c010.png") left center;
-	animation: play 5s steps(50) infinite;
+	animation: play 20s steps(200) infinite;
+	
+}
+.icon-animation-4:hover {
+	width:800px;
+	height:800px;
+	background: url("../img/icon-s9fd2a1c010.png") left center;
+	animation: play 1s steps(25) infinite;
 }
 
 body {
